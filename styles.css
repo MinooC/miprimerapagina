@@ -84,6 +84,14 @@ a {
   text-align: center;
 }
 
+.video-container {
+  display: flex;
+  align-items: center;  
+  gap: 50px;  
+  padding: auto;
+  flex-direction: column;
+}
+
 @media (max-width: 768px) {
   .column {
   flex: 100%;
@@ -118,4 +126,13 @@ display: none;
 .img-container {
   flex-direction: column ;
 }
+
+.video-container{
+  padding: 10px;
+  gap: 5px;
+}
+iframe, .video-container{
+  max-width: 90%;
+}
+
 }
